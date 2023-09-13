@@ -45,11 +45,11 @@ nav{
     right: 0;
 }
 .main_nav{
-    justify-content: space-between;
+    justify-content: space-around;
     padding-block: 8px;
 }
 .company-logo img{
-    width: 120px;
+    width: 60px;
 }
 .nav-link ul{
     gap: 16px;
@@ -93,10 +93,10 @@ main{
     margin-top: 10px;
 }
 .card-container{
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 20px;
-    align-items: start;
+    align-items:center;
 }
 .card{
     width: 360px;
@@ -125,3 +125,5 @@ main{
 .news-source{
     margin-block: 12px;
 }
+
+/* mediaquerry for mobile nav bar  */
